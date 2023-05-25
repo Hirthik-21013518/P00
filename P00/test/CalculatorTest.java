@@ -35,7 +35,7 @@ public class CalculatorTest {
     int b = 4321;
     
     Calculator cal = new Calculator();
-    int actual = cal.Subtract(a, b);
+    int actual = cal.subtract(a, b);
     
     int expected = 5555;
     assertEquals(actual,expected);
